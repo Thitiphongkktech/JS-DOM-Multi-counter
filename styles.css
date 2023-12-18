@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif; /* เปลี่ยน font-family ให้เป็น Arial หรือตามที่ต้องการ */
+    text-align: center;
+}
+
+.container {
+    outline: 4px solid rgb(255, 153, 93);
+    width: 80vw;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #a75d18;
+}
+
+.sumCount {
+    margin: 15px auto; /* ปรับ margin สำหรับ sumCount */
+}
+
+.inputBox {
+    font-size: 1rem;
+    padding-top: 0.3rem;
+    width: 5ch;
+    text-align: right;
+}
+
+.btnAdd {
+    margin-top: 15px; /* ปรับ margin-top สำหรับ btnAdd */
+}
+
+.Counter {
+    border: 4px dashed rgb(143, 81, 0);
+    margin-top: 20px; /* เพิ่ม margin-top สำหรับ Counter */
+    padding: 10px;
+}
+
+.counter-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px; /* เพิ่ม margin-bottom สำหรับ counter-header */
+}
+
+.counter-header>* {
+    flex-grow: 1;
+}
+
+.counter-header .right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.counter-header .right>* {
+    margin: 0 5px;
+    border: 1px dashed lightgray;
+}
+
+.Counter>button {
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+
+.counter {
+    border: 1px dashed rgb(255, 123, 0);
+    padding: 15px; /* เพิ่ม padding สำหรับ counter */
+}
+
+.headerDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.numberText {
+    flex-grow: 1;
+    display: flex;
+    justify-content: left;
+    margin-left: 100px; /* ปรับ margin-left สำหรับ numberText */
+}
+
+.stepText {
+    margin: 0 5px;
+    border: 1px dashed lightgray;
+}
+
+.plusBtn,
+.setZero,
+.decreaseBtn,
+.clearBtn {
+    padding: 8px 15px; /* ปรับ padding สำหรับ button */
+    margin: 0 8px; /* ปรับ margin สำหรับ button */
+}
